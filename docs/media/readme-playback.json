@@ -3,25 +3,25 @@
   "results": [
     {
       "name": "Chrome desktop",
-      "duration": 46.506,
-      "currentTime": 0.292808,
+      "duration": 53.376,
+      "currentTime": 0.207041,
       "width": 1280,
       "height": 720,
       "error": null,
       "seek": {
-        "time": 40.225337,
+        "time": 49.575295,
         "error": null
       }
     },
     {
       "name": "WebKit phone emulation",
-      "duration": 46.5,
-      "currentTime": 0.22238436700022174,
+      "duration": 53.367,
+      "currentTime": 0.21813712900040802,
       "width": 1280,
       "height": 720,
       "error": null,
       "seek": {
-        "time": 40.21341308799951,
+        "time": 49.574436960999954,
         "error": null
       }
     }
