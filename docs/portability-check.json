@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "warmCaches": true,
+  "cleanMachine": false,
+  "steps": [
+    {
+      "command": [
+        "git",
+        "clone",
+        "--depth",
+        "1",
+        "https://github.com/kujolang/webops-factory.git",
+        "<fresh-directory>"
+      ],
+      "exitCode": 0,
+      "seconds": 0.953
+    },
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exitCode": 0,
+      "seconds": 9.342
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "setup"
+      ],
+      "exitCode": 0,
+      "seconds": 48.896
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "demo"
+      ],
+      "exitCode": 0,
+      "seconds": 0.906
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "factory",
+        "--",
+        "run",
+        "examples/studio.json",
+        "--fixture"
+      ],
+      "exitCode": 0,
+      "seconds": 15.078
+    }
+  ],
+  "seconds": 75.179,
+  "sourceCommit": "c3f8b4a",
+  "hostContext": "Busy, resource-limited development machine; warm dependency/browser caches; existing Node, Git and Python; no provider login or calls in this check."
+}

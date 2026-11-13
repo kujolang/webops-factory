@@ -19,3 +19,5 @@ Earlier runs were blocked when the reviewer lacked illustration evidence and whe
 `npm run verify` passes 17 tests and repository Markdown links. `npm run doctor` launches Chromium and checks the runtime. With the floor running, `npm run verify:floor` checks six stations, five repair cards, keyboard focus, loaded screenshots, the artifact content policy, traversal rejection, mobile layout and browser errors.
 
 The setup completed on a busy, resource-limited development machine with warm dependency caches. This was **not a clean-machine installation benchmark**.  Timings from this busy development machine are observations, not onboarding promises. No search ranking, revenue, WCAG conformance or production deployment claim follows from these checks.
+
+A [fresh-clone portability check](portability-check.json) passed against the published repository: clone, `npm ci`, setup, recorded-example import and a fixture mission. Total elapsed time was 75.179 seconds, including the fixture run; setup itself took 48.896 seconds. Existing system tools and warm caches make this unsuitable as a clean-machine onboarding estimate.
