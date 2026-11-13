@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/deps/siteprobe/siteprobe",
+    "verify",
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/runs/20261113T131253Z-6e15286b/evidence/before/siteprobe"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 0.089,
+  "stdout": "Verified SiteProbe manifest: /Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/runs/20261113T131253Z-6e15286b/evidence/before/siteprobe/manifest.json\n",
+  "stderr": ""
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "about.html",
+    "sha256": "4dc22362018f2846cb24291efbc136b54430f9bed7dfba8e5c2cbbda0baccad6"
+  },
+  {
+    "path": "index.html",
+    "sha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e"
+  },
+  {
+    "path": "services.html",
+    "sha256": "fd60ab65d1db2b838755158dcf46f2148ea706192fca3b1f4ab36158479da987"
+  },
+  {
+    "path": "style.css",
+    "sha256": "2b5c15f8b291de0be8d5552f941f60ec5e869789b5195836898bbe7267ce6b6d"
+  },
+  {
+    "path": "workshop.svg",
+    "sha256": "79576c9b6e69fa797c9768c045c0b2134e61aba8d9d806f09b135dbca1ffb2cc"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "error": "HTTP 404",
+  "schema": "siteprobe.robots/v1",
+  "sitemaps": [
+    "http://127.0.0.1:63232/sitemap.xml"
+  ],
+  "status": 404,
+  "text_fingerprint": "",
+  "url": "http://127.0.0.1:63232/robots.txt"
+}

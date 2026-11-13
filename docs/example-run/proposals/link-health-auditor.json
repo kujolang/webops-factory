@@ -1,0 +1,22 @@
+{
+  "proposal": {
+    "edits": [
+      {
+        "findingId": "cc631ec65bb6",
+        "value": "services.html",
+        "reason": "The existing local services page matches the link text and is already used as the services destination elsewhere on the site."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "input_tokens": 15508,
+      "cached_input_tokens": 12288,
+      "output_tokens": 56,
+      "reasoning_output_tokens": 0
+    }
+  ],
+  "role": "link-health-auditor",
+  "provider": "codex",
+  "model": "account-default"
+}

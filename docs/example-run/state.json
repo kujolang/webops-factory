@@ -1,0 +1,42 @@
+{
+  "id": "20261113T131253Z-6e15286b",
+  "title": "Northline Studio — website repair",
+  "status": "approval_required",
+  "mode": "live",
+  "stage": 6,
+  "stages": [
+    {
+      "name": "Snapshot",
+      "startedAt": "2026-11-13T13:12:53.736766+00:00"
+    },
+    {
+      "name": "Inspect",
+      "startedAt": "2026-11-13T13:12:53.754377+00:00"
+    },
+    {
+      "name": "Propose",
+      "startedAt": "2026-11-13T13:13:03.454456+00:00"
+    },
+    {
+      "name": "Repair",
+      "startedAt": "2026-11-13T13:13:25.092579+00:00"
+    },
+    {
+      "name": "Verify",
+      "startedAt": "2026-11-13T13:13:25.116006+00:00"
+    },
+    {
+      "name": "Package",
+      "startedAt": "2026-11-13T13:13:37.100916+00:00"
+    }
+  ],
+  "counts": {
+    "before": 5,
+    "after": 0,
+    "pages": 3,
+    "repaired": 5
+  },
+  "providerCalls": 4,
+  "packageSha256": "1e4676ba50bcab12753eb8b9ae7b4270ebec7948504e29b958afa779587cb2c3",
+  "durationSeconds": 43.443
+}

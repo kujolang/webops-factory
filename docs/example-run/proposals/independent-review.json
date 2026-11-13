@@ -1,0 +1,17 @@
+{
+  "proposal": {
+    "verdict": "pass",
+    "findings": []
+  },
+  "usage": [
+    {
+      "input_tokens": 17484,
+      "cached_input_tokens": 12288,
+      "output_tokens": 124,
+      "reasoning_output_tokens": 102
+    }
+  ],
+  "role": "site-qa-operator",
+  "provider": "codex",
+  "model": "account-default"
+}

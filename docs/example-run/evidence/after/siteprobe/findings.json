@@ -1,0 +1,44 @@
+{
+  "findings": [
+    {
+      "check": "duplicate-content",
+      "evidence": {
+        "urls": [
+          "http://127.0.0.1:63378/",
+          "http://127.0.0.1:63378/index.html"
+        ],
+        "value_fingerprint": "1604424fcd337303f7ba4372c48a6d79d55e3b1a6f21673421d2feee4e19cc7a"
+      },
+      "id": "SP-145F23B1040DCFFC",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63378/"
+    },
+    {
+      "check": "duplicate-description",
+      "evidence": {
+        "urls": [
+          "http://127.0.0.1:63378/",
+          "http://127.0.0.1:63378/index.html"
+        ],
+        "value_fingerprint": "961700957f881a8e1f08eeae3be7f8bbc8c94955e8b2e6690606771a8968ba9c"
+      },
+      "id": "SP-E0996A7D8F3BE3A5",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63378/"
+    },
+    {
+      "check": "duplicate-title",
+      "evidence": {
+        "urls": [
+          "http://127.0.0.1:63378/",
+          "http://127.0.0.1:63378/index.html"
+        ],
+        "value_fingerprint": "994c8dee9dd51f4975df9278b9e98b98c884acbc2d0ca41cf182f64f45b65ede"
+      },
+      "id": "SP-62E4BA6FB65D33E7",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63378/"
+    }
+  ],
+  "schema": "siteprobe.findings/v1"
+}

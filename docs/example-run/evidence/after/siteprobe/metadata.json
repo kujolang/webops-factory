@@ -1,0 +1,27 @@
+{
+  "descriptions": {
+    "Explore space planning, custom fixtures and installation for practical small-business interiors from Northline Studio.": [
+      "http://127.0.0.1:63378/services.html"
+    ],
+    "Meet Northline Studio, a Detroit design and build team creating practical spaces for small businesses.": [
+      "http://127.0.0.1:63378/about.html"
+    ],
+    "Northline Studio is an example Detroit team that designs and builds practical spaces for small businesses, from planning through installation.": [
+      "http://127.0.0.1:63378/",
+      "http://127.0.0.1:63378/index.html"
+    ]
+  },
+  "schema": "siteprobe.metadata/v1",
+  "titles": {
+    "About the studio | Northline Studio": [
+      "http://127.0.0.1:63378/about.html"
+    ],
+    "Design and build services | Northline Studio": [
+      "http://127.0.0.1:63378/services.html"
+    ],
+    "Practical design and build | Northline Studio": [
+      "http://127.0.0.1:63378/",
+      "http://127.0.0.1:63378/index.html"
+    ]
+  }
+}

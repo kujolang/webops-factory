@@ -1,0 +1,13 @@
+{
+  "errors": [
+    {
+      "error": "HTTP 404",
+      "url": "http://127.0.0.1:63378/sitemap.xml"
+    }
+  ],
+  "schema": "siteprobe.sitemap/v1",
+  "sitemaps": [
+    "http://127.0.0.1:63378/sitemap.xml"
+  ],
+  "urls": []
+}

@@ -1,0 +1,81 @@
+{
+  "findings": [
+    {
+      "check": "broken-url",
+      "evidence": {
+        "error": "HTTP 404",
+        "status": 404
+      },
+      "id": "SP-45020EC704AABB63",
+      "severity": "error",
+      "target": "http://127.0.0.1:63232/services-old.html"
+    },
+    {
+      "check": "duplicate-content",
+      "evidence": {
+        "urls": [
+          "http://127.0.0.1:63232/",
+          "http://127.0.0.1:63232/index.html"
+        ],
+        "value_fingerprint": "05b66f864491f9a763f5deed18d7a60d2e25a489ab8bc6e957b498d31c4f505d"
+      },
+      "id": "SP-ECDA94BD1C66E6C2",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/"
+    },
+    {
+      "check": "missing-description",
+      "evidence": {},
+      "id": "SP-E5895804057FC1A1",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/"
+    },
+    {
+      "check": "missing-description",
+      "evidence": {},
+      "id": "SP-16115419517B1AD3",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/index.html"
+    },
+    {
+      "check": "missing-description",
+      "evidence": {},
+      "id": "SP-4ACE59D88D4BC0D0",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/services.html"
+    },
+    {
+      "check": "missing-image-alt",
+      "evidence": {
+        "count": 1
+      },
+      "id": "SP-BFC9225F2BB571E7",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/"
+    },
+    {
+      "check": "missing-image-alt",
+      "evidence": {
+        "count": 1
+      },
+      "id": "SP-F680B49812F8897E",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/index.html"
+    },
+    {
+      "check": "missing-title",
+      "evidence": {},
+      "id": "SP-88ED955A42ED1FA1",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/"
+    },
+    {
+      "check": "missing-title",
+      "evidence": {},
+      "id": "SP-5811E7B1E9202BFB",
+      "severity": "warning",
+      "target": "http://127.0.0.1:63232/index.html"
+    }
+  ],
+  "schema": "siteprobe.findings/v1"
+}

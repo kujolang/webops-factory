@@ -1,0 +1,19 @@
+{
+  "descriptions": {
+    "Meet Northline Studio, a Detroit design and build team creating practical spaces for small businesses.": [
+      "http://127.0.0.1:63232/about.html"
+    ]
+  },
+  "schema": "siteprobe.metadata/v1",
+  "titles": {
+    "About the studio | Northline Studio": [
+      "http://127.0.0.1:63232/about.html"
+    ],
+    "Design and build services | Northline Studio": [
+      "http://127.0.0.1:63232/services.html"
+    ],
+    "Error response": [
+      "http://127.0.0.1:63232/services-old.html"
+    ]
+  }
+}

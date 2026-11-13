@@ -1,0 +1,12 @@
+{
+  "title": "Northline Studio — website repair",
+  "site": "studio-site",
+  "objective": "Make the example studio website easier to find and use. Repair the missing titles and descriptions, describe the workshop illustration for screen-reader users, and restore the services link. Preserve the design and factual claims. Do not publish anything.",
+  "fixtureValues": {
+    "index.html:title": "Northline Studio | Design and build in Detroit",
+    "index.html:description": "Northline Studio helps small businesses plan and build practical spaces, with one Detroit team from first sketch to installation.",
+    "index.html:image_alt": "Illustration of a workshop with a wooden workbench, a window and wall shelves.",
+    "index.html:broken_link": "services.html",
+    "services.html:description": "Explore Northline Studio's space planning, custom fixtures and installation services for small businesses."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "kujo.webops-factory.sources/v1",
+  "repositories": {
+    "siteprobe": {
+      "url": "https://github.com/kujolang/siteprobe.git",
+      "commit": "957ce6b72b2a1c2f1a46650a33bdc44498ddcc96"
+    },
+    "lens": {
+      "url": "https://github.com/kujolang/lens.git",
+      "commit": "91049646d70c11bf0c6071f39cf7dfac6b1ba70b"
+    },
+    "kujo-agents": {
+      "url": "https://github.com/kujolang/kujo-agents.git",
+      "commit": "a7e9d0236d6e64b5db30273b32f4ad8c124f5173"
+    },
+    "kujo-workflows": {
+      "url": "https://github.com/kujolang/kujo-workflows.git",
+      "commit": "d766eae4fd9a131e51c34796d029fd3bc6974689"
+    }
+  }
+}

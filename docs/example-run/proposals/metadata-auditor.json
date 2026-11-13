@@ -1,0 +1,32 @@
+{
+  "proposal": {
+    "edits": [
+      {
+        "findingId": "c58f685f95a8",
+        "value": "Practical design and build | Northline Studio",
+        "reason": "Describes the home page’s focus on practical spaces for small businesses and identifies the studio."
+      },
+      {
+        "findingId": "1f7b09c10cc1",
+        "value": "Northline Studio is an example Detroit team that designs and builds practical spaces for small businesses, from planning through installation.",
+        "reason": "Summarizes the home page accurately while preserving its example-site status and stated services."
+      },
+      {
+        "findingId": "586dc1ec5d1d",
+        "value": "Explore space planning, custom fixtures and installation for practical small-business interiors from Northline Studio.",
+        "reason": "Reflects the specific services listed on the page without adding unsupported claims."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "input_tokens": 15650,
+      "cached_input_tokens": 0,
+      "output_tokens": 200,
+      "reasoning_output_tokens": 30
+    }
+  ],
+  "role": "metadata-auditor",
+  "provider": "codex",
+  "model": "account-default"
+}

@@ -1,0 +1,138 @@
+{
+  "role": "site-qa-operator",
+  "task": "Independently review the proposed text and exact diff for unsupported claims, wrong link targets, invented image descriptions, loss of meaning or harmful changes. Deterministic checks already passed. Return pass only if no substantive issue remains; this is model review, not human approval.",
+  "data": {
+    "objective": "Make the example studio website easier to find and use. Repair the missing titles and descriptions, describe the workshop illustration for screen-reader users, and restore the services link. Preserve the design and factual claims. Do not publish anything.",
+    "diff": "--- a/index.html\n+++ b/index.html\n@@ -1,4 +1,5 @@\n <!doctype html>\n-<html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title></title><link rel=\"stylesheet\" href=\"style.css\"></head>\n+<html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Practical design and build | Northline Studio</title><link rel=\"stylesheet\" href=\"style.css\"><meta name=\"description\" content=\"Northline Studio is an example Detroit team that designs and builds practical spaces for small businesses, from planning through installation.\">\n+</head>\n <body><header><a class=\"brand\" href=\"index.html\">NORTHLINE<span>DESIGN & BUILD · DETROIT</span></a><nav aria-label=\"Main navigation\"><a href=\"services.html\">Our work</a><a href=\"about.html\">The studio</a></nav></header>\n-<main><section class=\"hero\"><div><p class=\"eyebrow\">BUILT FOR EVERYDAY LIFE</p><h1>Good spaces.<br>Made to last.</h1><p class=\"lede\">We design and build useful spaces for small businesses. From the first sketch to the final install, you work with one local team.</p><a class=\"button\" href=\"services-old.html\">Explore our services <span aria-hidden=\"true\">↗</span></a></div><img src=\"workshop.svg\" width=\"640\" height=\"520\"></section><section class=\"strip\"><div><b>01</b><h2>Start with your space</h2><p>Tell us what needs to work better.</p></div><div><b>02</b><h2>Make a clear plan</h2><p>Review the layout, materials and scope.</p></div><div><b>03</b><h2>Build it together</h2><p>Keep the same team through installation.</p></div></section></main><footer>Northline Studio · Detroit, Michigan <a href=\"about.html\">Meet the team ↗</a></footer></body></html>\n+<main><section class=\"hero\"><div><p class=\"eyebrow\">BUILT FOR EVERYDAY LIFE</p><h1>Good spaces.<br>Made to last.</h1><p class=\"lede\">We design and build useful spaces for small businesses. From the first sketch to the final install, you work with one local team.</p><a class=\"button\" href=\"services.html\">Explore our services <span aria-hidden=\"true\">↗</span></a></div><img src=\"workshop.svg\" width=\"640\" height=\"520\" alt=\"Illustration of a workshop interior with a workbench, window, and shelves.\"></section><section class=\"strip\"><div><b>01</b><h2>Start with your space</h2><p>Tell us what needs to work better.</p></div><div><b>02</b><h2>Make a clear plan</h2><p>Review the layout, materials and scope.</p></div><div><b>03</b><h2>Build it together</h2><p>Keep the same team through installation.</p></div></section></main><footer>Northline Studio · Detroit, Michigan <a href=\"about.html\">Meet the team ↗</a></footer></body></html>\n--- a/services.html\n+++ b/services.html\n@@ -1 +1,2 @@\n-<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Design and build services | Northline Studio</title><link rel=\"stylesheet\" href=\"style.css\"></head><body><header><a class=\"brand\" href=\"index.html\">NORTHLINE<span>DESIGN & BUILD · DETROIT</span></a><nav aria-label=\"Main navigation\"><a href=\"index.html\">Home</a><a href=\"about.html\">The studio</a></nav></header><main class=\"page\"><p class=\"eyebrow\">OUR SERVICES</p><h1>From idea<br>to installation.</h1><p class=\"lede\">We help small businesses plan and build practical interiors.</p><h2>Space planning</h2><p>Layouts that make the most of the space you have.</p><h2>Custom fixtures</h2><p>Shelving, counters and work surfaces built for daily use.</p><h2>Installation</h2><p>Our team takes the approved design through the final fit.</p><a class=\"button\" href=\"about.html\">Meet your team ↗</a></main><footer>Northline Studio · Detroit, Michigan</footer></body></html>\n+<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Design and build services | Northline Studio</title><link rel=\"stylesheet\" href=\"style.css\"><meta name=\"description\" content=\"Explore space planning, custom fixtures and installation for practical small-business interiors from Northline Studio.\">\n+</head><body><header><a class=\"brand\" href=\"index.html\">NORTHLINE<span>DESIGN & BUILD · DETROIT</span></a><nav aria-label=\"Main navigation\"><a href=\"index.html\">Home</a><a href=\"about.html\">The studio</a></nav></header><main class=\"page\"><p class=\"eyebrow\">OUR SERVICES</p><h1>From idea<br>to installation.</h1><p class=\"lede\">We help small businesses plan and build practical interiors.</p><h2>Space planning</h2><p>Layouts that make the most of the space you have.</p><h2>Custom fixtures</h2><p>Shelving, counters and work surfaces built for daily use.</p><h2>Installation</h2><p>Our team takes the approved design through the final fit.</p><a class=\"button\" href=\"about.html\">Meet your team ↗</a></main><footer>Northline Studio · Detroit, Michigan</footer></body></html>\n",
+    "beforeFindings": [
+      {
+        "id": "c58f685f95a8",
+        "file": "index.html",
+        "kind": "title",
+        "tag": null,
+        "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+        "severity": "warning",
+        "label": "Page needs a title"
+      },
+      {
+        "id": "1f7b09c10cc1",
+        "file": "index.html",
+        "kind": "description",
+        "tag": null,
+        "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+        "severity": "warning",
+        "label": "Page needs a search description"
+      },
+      {
+        "id": "cc631ec65bb6",
+        "file": "index.html",
+        "kind": "broken_link",
+        "tag": {
+          "tag": "a",
+          "attrs": {
+            "class": "button",
+            "href": "services-old.html"
+          },
+          "start": 676,
+          "raw": "<a class=\"button\" href=\"services-old.html\">"
+        },
+        "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+        "severity": "error",
+        "label": "Internal link leads to a missing page"
+      },
+      {
+        "id": "4182717d218c",
+        "file": "index.html",
+        "kind": "image_alt",
+        "tag": {
+          "tag": "img",
+          "attrs": {
+            "src": "workshop.svg",
+            "width": "640",
+            "height": "520"
+          },
+          "start": 783,
+          "raw": "<img src=\"workshop.svg\" width=\"640\" height=\"520\">"
+        },
+        "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+        "severity": "warning",
+        "label": "Image needs a text alternative"
+      },
+      {
+        "id": "586dc1ec5d1d",
+        "file": "services.html",
+        "kind": "description",
+        "tag": null,
+        "sourceSha256": "fd60ab65d1db2b838755158dcf46f2148ea706192fca3b1f4ab36158479da987",
+        "severity": "warning",
+        "label": "Page needs a search description"
+      }
+    ],
+    "afterFindings": [],
+    "edits": [
+      {
+        "findingId": "c58f685f95a8",
+        "value": "Practical design and build | Northline Studio",
+        "reason": "Describes the home page’s focus on practical spaces for small businesses and identifies the studio."
+      },
+      {
+        "findingId": "1f7b09c10cc1",
+        "value": "Northline Studio is an example Detroit team that designs and builds practical spaces for small businesses, from planning through installation.",
+        "reason": "Summarizes the home page accurately while preserving its example-site status and stated services."
+      },
+      {
+        "findingId": "586dc1ec5d1d",
+        "value": "Explore space planning, custom fixtures and installation for practical small-business interiors from Northline Studio.",
+        "reason": "Reflects the specific services listed on the page without adding unsupported claims."
+      },
+      {
+        "findingId": "cc631ec65bb6",
+        "value": "services.html",
+        "reason": "The existing local services page matches the link text and is already used as the services destination elsewhere on the site."
+      },
+      {
+        "findingId": "4182717d218c",
+        "value": "Illustration of a workshop interior with a workbench, window, and shelves.",
+        "reason": "Provides a concise text alternative based only on clearly identifiable elements in the supplied illustration."
+      }
+    ],
+    "sourcePages": {
+      "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title></title><link rel=\"stylesheet\" href=\"style.css\"></head>\n<body><header><a class=\"brand\" href=\"index.html\">NORTHLINE<span>DESIGN & BUILD · DETROIT</span></a><nav aria-label=\"Main navigation\"><a href=\"services.html\">Our work</a><a href=\"about.html\">The studio</a></nav></header>\n<main><section class=\"hero\"><div><p class=\"eyebrow\">BUILT FOR EVERYDAY LIFE</p><h1>Good spaces.<br>Made to last.</h1><p class=\"lede\">We design and build useful spaces for small businesses. From the first sketch to the final install, you work with one local team.</p><a class=\"button\" href=\"services-old.html\">Explore our services <span aria-hidden=\"true\">↗</span></a></div><img src=\"workshop.svg\" width=\"640\" height=\"520\"></section><section class=\"strip\"><div><b>01</b><h2>Start with your space</h2><p>Tell us what needs to work better.</p></div><div><b>02</b><h2>Make a clear plan</h2><p>Review the layout, materials and scope.</p></div><div><b>03</b><h2>Build it together</h2><p>Keep the same team through installation.</p></div></section></main><footer>Northline Studio · Detroit, Michigan <a href=\"about.html\">Meet the team ↗</a></footer></body></html>\n",
+      "about.html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>About the studio | Northline Studio</title><meta name=\"description\" content=\"Meet Northline Studio, a Detroit design and build team creating practical spaces for small businesses.\"><link rel=\"stylesheet\" href=\"style.css\"></head><body><header><a class=\"brand\" href=\"index.html\">NORTHLINE<span>DESIGN & BUILD · DETROIT</span></a><nav aria-label=\"Main navigation\"><a href=\"index.html\">Home</a><a href=\"services.html\">Our work</a></nav></header><main class=\"page\"><p class=\"eyebrow\">THE STUDIO</p><h1>Local people.<br>Practical work.</h1><p class=\"lede\">Northline is an example design and build studio in Detroit. This fictional website is a repair demonstration, not a real business.</p><h2>One team, start to finish</h2><p>We combine planning, fabrication and installation so the handoffs stay simple.</p><a class=\"button\" href=\"services.html\">Explore our services ↗</a></main><footer>Northline Studio · Example website</footer></body></html>\n",
+      "services.html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Design and build services | Northline Studio</title><link rel=\"stylesheet\" href=\"style.css\"></head><body><header><a class=\"brand\" href=\"index.html\">NORTHLINE<span>DESIGN & BUILD · DETROIT</span></a><nav aria-label=\"Main navigation\"><a href=\"index.html\">Home</a><a href=\"about.html\">The studio</a></nav></header><main class=\"page\"><p class=\"eyebrow\">OUR SERVICES</p><h1>From idea<br>to installation.</h1><p class=\"lede\">We help small businesses plan and build practical interiors.</p><h2>Space planning</h2><p>Layouts that make the most of the space you have.</p><h2>Custom fixtures</h2><p>Shelving, counters and work surfaces built for daily use.</p><h2>Installation</h2><p>Our team takes the approved design through the final fit.</p><a class=\"button\" href=\"about.html\">Meet your team ↗</a></main><footer>Northline Studio · Detroit, Michigan</footer></body></html>\n"
+    },
+    "availableFiles": [
+      "about.html",
+      "index.html",
+      "services.html",
+      "style.css",
+      "workshop.svg"
+    ],
+    "illustrations": {
+      "workshop.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"640\" height=\"520\" viewBox=\"0 0 640 520\"><rect width=\"640\" height=\"520\" fill=\"#b9c2b4\"/><path d=\"M0 385 640 320V520H0\" fill=\"#7f927e\"/><path d=\"M400 0v340M0 340h640\" stroke=\"#81917d\" stroke-width=\"3\"/><path d=\"M64 62h255v200H64z\" fill=\"#e9e9dc\"/><path d=\"M190 62v200M64 164h255\" stroke=\"#859781\" stroke-width=\"10\"/><path d=\"M76 348 432 295 578 340 217 410z\" fill=\"#c29b69\"/><path d=\"M94 358v115M225 410v100M552 348v100M426 305v105\" stroke=\"#314b39\" stroke-width=\"18\"/><path d=\"M465 87h127v172H465z\" fill=\"#9eab93\"/><path d=\"M480 127h96M480 176h96M480 226h96\" stroke=\"#3f5940\" stroke-width=\"8\"/><path d=\"M275 320 366 307 386 319 294 334z\" fill=\"#42573b\"/><circle cx=\"335\" cy=\"340\" r=\"10\" fill=\"#ece6d6\"/></svg>\n"
+    }
+  },
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "verdict",
+      "findings"
+    ],
+    "properties": {
+      "verdict": {
+        "type": "string",
+        "enum": [
+          "pass",
+          "revise"
+        ]
+      },
+      "findings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

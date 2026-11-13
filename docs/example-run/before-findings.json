@@ -1,0 +1,64 @@
+[
+  {
+    "id": "c58f685f95a8",
+    "file": "index.html",
+    "kind": "title",
+    "tag": null,
+    "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+    "severity": "warning",
+    "label": "Page needs a title"
+  },
+  {
+    "id": "1f7b09c10cc1",
+    "file": "index.html",
+    "kind": "description",
+    "tag": null,
+    "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+    "severity": "warning",
+    "label": "Page needs a search description"
+  },
+  {
+    "id": "cc631ec65bb6",
+    "file": "index.html",
+    "kind": "broken_link",
+    "tag": {
+      "tag": "a",
+      "attrs": {
+        "class": "button",
+        "href": "services-old.html"
+      },
+      "start": 676,
+      "raw": "<a class=\"button\" href=\"services-old.html\">"
+    },
+    "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+    "severity": "error",
+    "label": "Internal link leads to a missing page"
+  },
+  {
+    "id": "4182717d218c",
+    "file": "index.html",
+    "kind": "image_alt",
+    "tag": {
+      "tag": "img",
+      "attrs": {
+        "src": "workshop.svg",
+        "width": "640",
+        "height": "520"
+      },
+      "start": 783,
+      "raw": "<img src=\"workshop.svg\" width=\"640\" height=\"520\">"
+    },
+    "sourceSha256": "c50a60e3e62d0fc21450f41e2a501d3db44a0fa3768e05eb8137ac00a6f14f2e",
+    "severity": "warning",
+    "label": "Image needs a text alternative"
+  },
+  {
+    "id": "586dc1ec5d1d",
+    "file": "services.html",
+    "kind": "description",
+    "tag": null,
+    "sourceSha256": "fd60ab65d1db2b838755158dcf46f2148ea706192fca3b1f4ab36158479da987",
+    "severity": "warning",
+    "label": "Page needs a search description"
+  }
+]

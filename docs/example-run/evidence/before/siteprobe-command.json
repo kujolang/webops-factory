@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/deps/siteprobe/siteprobe",
+    "crawl",
+    "http://127.0.0.1:63232",
+    "--out",
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/runs/20261113T131253Z-6e15286b/evidence/before/siteprobe",
+    "--allow-private-network",
+    "--max-pages",
+    "30",
+    "--max-depth",
+    "3",
+    "--max-output-bytes",
+    "10485760",
+    "--json"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 0.293,
+  "stdout": "{\"counts\":{\"findings\":9,\"findings_by_severity\":{\"error\":1,\"warning\":8},\"links\":18,\"pages\":5,\"redirects\":0},\"run\":\"/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/runs/20261113T131253Z-6e15286b/evidence/before/siteprobe\"}\n",
+  "stderr": ""
+}

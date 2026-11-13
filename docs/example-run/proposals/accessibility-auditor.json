@@ -1,0 +1,22 @@
+{
+  "proposal": {
+    "edits": [
+      {
+        "findingId": "4182717d218c",
+        "value": "Illustration of a workshop interior with a workbench, window, and shelves.",
+        "reason": "Provides a concise text alternative based only on clearly identifiable elements in the supplied illustration."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "input_tokens": 15495,
+      "cached_input_tokens": 12288,
+      "output_tokens": 133,
+      "reasoning_output_tokens": 68
+    }
+  ],
+  "role": "accessibility-auditor",
+  "provider": "codex",
+  "model": "account-default"
+}

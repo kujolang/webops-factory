@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/deps/lens/lens",
+    "check",
+    "http://127.0.0.1:63378",
+    "--out",
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/runs/20261113T131253Z-6e15286b/evidence/after/lens",
+    "--check-links",
+    "--accessibility",
+    "--fail-on",
+    "error",
+    "--json"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 5.46,
+  "stdout": "{\"duration_ms\":3808,\"exit_code\":0,\"findings\":{\"critical\":0,\"error\":0,\"info\":0,\"warning\":0},\"report\":\"/Users/robertdevore/2026/Kujolang/kujo-repos/webops-factory/.runtime/runs/20261113T131253Z-6e15286b/evidence/after/lens/lens-report.md\",\"status\":\"PASS\",\"url\":\"http://127.0.0.1:63378\"}\n",
+  "stderr": ""
+}
