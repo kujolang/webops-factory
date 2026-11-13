@@ -7,9 +7,9 @@
 
 Give your website a repair team. Get scoped fixes, before-and-after evidence and a candidate you can review before anything goes live.
 
-https://github.com/user-attachments/assets/6c05d768-decd-4046-80c9-0c924588a565
+https://github.com/user-attachments/assets/002165df-7109-4f4d-ae17-329cae34c3fd
 
-[Download for your phone](https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo-mobile.mp4) · [Download 1080p](https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo.mp4)
+[Download for your phone](https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo-mobile.mp4?v=closing-v2) · [Download 1080p](https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo.mp4?v=closing-v2)
 
 The demo shows the recorded live run, with ElevenLabs narration and the Kujo bumper. [Source and verification](docs/media/manifest.json).
 

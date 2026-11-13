@@ -1,22 +1,22 @@
 {
   "title": "WebOps Factory demo",
-  "durationSeconds": 46.5,
+  "durationSeconds": 53.366667,
   "sourceRun": "20261113T131253Z-6e15286b",
   "files": [
     {
       "file": "webops-factory-demo.mp4",
-      "sha256": "29860cb95d0da48847f420ecf53a5f952d07bf959276347b01ce026c684af4e0",
-      "bytes": 10175581
+      "sha256": "35d67af84cee30d6dea748df2bf26e9f14218c54d585c14477b17994e2f8e3af",
+      "bytes": 7819746
     },
     {
       "file": "webops-factory-demo-mobile.mp4",
-      "sha256": "b07f89dd49a0eb3d4105875c66fb917eb7a1435140b41d559971adcdb57a209b",
-      "bytes": 1248018
+      "sha256": "0d998f5065797da2bfa1d7a9e056db8c0eb4e0da11562f9d4f42ec7d4ea7c950",
+      "bytes": 1391610
     }
   ],
   "audio": {
-    "integratedLUFS": -16.7,
-    "truePeakDbTP": -1.65,
+    "integratedLUFS": -16.54,
+    "truePeakDbTP": -1.9,
     "listening": "not_attested"
   },
   "reviewStatus": "REVIEW_INCOMPLETE",
@@ -26,31 +26,48 @@
     "model": "eleven_v4",
     "voice": "eXpIbVcVbLo8ZJQDlDnl",
     "receipts": "Editable source archive/media",
-    "characters": 649,
-    "observedCredits": 286,
+    "characters": 758,
+    "observedCredits": 361,
+    "revisionCredits": 75,
+    "creditScope": "Total acquisition including superseded closing",
     "monetaryCost": null
   },
   "limitations": [
     "Perceptual audio listening not attested; no creative PASS claimed.",
     "Film shows completed run records, not real-time agent execution."
   ],
+  "revision": {
+    "number": 2,
+    "reason": "Benefits-first closing and corrected LANG pronunciation steering",
+    "closingText": "With WebOps Factory, fix website problems faster and see exactly what changed before anything goes live. Build your next factory with Kujo. Start at kujolang.ai.",
+    "ttsPronunciation": "Koo-joe LANG dot A I",
+    "pronunciationMethod": "Separated phonetic TTS spelling; canonical provider adapter has no pronunciation dictionary field. LANG as in language, rhyming with hang.",
+    "pronunciationListening": "not_attested",
+    "originalSourceFramesReused": 1395,
+    "videoReencoded": true,
+    "prefixPreservation": "Original source footage and timing unchanged; one constant-frame-rate encode",
+    "extensionFrames": 206,
+    "closingStartSeconds": 41.033333
+  },
   "technicalChecks": {
     "decode": "PASS",
     "hyperframesLint": "PASS",
     "hyperframesBrowserCheck": "PASS",
     "frameScan": {
-      "frames": 1395,
+      "frames": 1601,
       "isolatedFlashCandidates": 0,
       "startupGrayFrames": 0,
       "blackFrames": 0,
       "blankWhiteFrames": 0
     },
-    "audioQA": "PASS"
+    "audioQA": "PASS",
+    "videoTiming": "PASS: 1601 decoded frames, 53.366667 seconds, nominal and average30fps",
+    "extensionBoundary": "PASS: frames1394 and1395 pixel-identical (mean/max RGB delta0)"
   },
-  "sampledVisualReview": "PASS \u2014 independent parent review of contact/phone sheets, four scene-cut strips and both internal browser-transition strips",
+  "sampledVisualReview": "PASS \u2014 independent parent review of corrected contact/phone and closing/extension cut sheets; identical decoded RGB frames at the former extension seam",
   "sourceArchive": {
     "file": "webops-demo-source.zip",
-    "bytes": 35864183,
-    "sha256": "dd51832961a23cc9fbc83bf6fa54f4d29dbaf6311d80721f826fe9f83a3fd06a"
+    "bytes": 39710041,
+    "sha256": "cc54205a0e2fe9d6331b3781e81cbf1460a2a003dc11e061730f6029045a33a8"
   }
 }

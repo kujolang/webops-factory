@@ -6,4 +6,4 @@ You can see exactly what changed. That broken services link now points to the ri
 
 Then the factory crawls the repaired site and captures it in a browser. A separate reviewer checks the work. Five targeted problems, fixed. You decide what ships.
 
-Build your next factory with Kujo. Start at kujolang dot A I.
+With WebOps Factory, fix website problems faster and see exactly what changed before anything goes live. Build your next factory with Kujo. Start at kujolang.ai.
