@@ -56,6 +56,6 @@
     }
   ],
   "seconds": 75.179,
-  "sourceCommit": "c3f8b4a",
-  "hostContext": "Busy, resource-limited development machine; warm dependency/browser caches; existing Node, Git and Python; no provider login or calls in this check."
+  "testedCommit": "c3f8b4a",
+  "context": "Fresh checkout on a busy, resource-limited development host with warm npm/browser caches. Not a clean-machine onboarding benchmark; excludes account login."
 }
