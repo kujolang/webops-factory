@@ -7,6 +7,12 @@
 
 Give your website a repair team. Get scoped fixes, before-and-after evidence and a candidate you can review before anything goes live.
 
+https://github.com/user-attachments/assets/6c05d768-decd-4046-80c9-0c924588a565
+
+[Download for your phone](https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo-mobile.mp4) · [Download 1080p](https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo.mp4)
+
+The demo shows the recorded live run, with ElevenLabs narration and the Kujo bumper. [Source and verification](docs/media/manifest.json).
+
 WebOps Factory copies a static website, inspects it with SiteProbe and Lens, asks specialist agents for repairs, applies allowed edits to the copy, and checks the result again. An independent model reviewer examines the exact patch. The factory stops at human review; it does not edit the original site or deploy anything.
 
 The visual floor shows the handoffs, repair values, reasons, browser screenshots and verification reports. Every displayed status comes from a retained run record.

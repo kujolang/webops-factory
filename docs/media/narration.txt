@@ -1,0 +1,9 @@
+A broken link can send your next customer nowhere. WebOps Factory gives your team a clear way to find problems, make repairs, and check the result.
+
+Here’s Northline Studio. The factory checks its pages, assigns focused work to specialist agents, and keeps the original site untouched.
+
+You can see exactly what changed. That broken services link now points to the right page. Missing page details and image text get repaired too.
+
+Then the factory crawls the repaired site and captures it in a browser. A separate reviewer checks the work. Five targeted problems, fixed. You decide what ships.
+
+Build your next factory with Kujo. Start at kujolang dot A I.

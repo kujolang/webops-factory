@@ -1,0 +1,56 @@
+{
+  "title": "WebOps Factory demo",
+  "durationSeconds": 46.5,
+  "sourceRun": "20261113T131253Z-6e15286b",
+  "files": [
+    {
+      "file": "webops-factory-demo.mp4",
+      "sha256": "29860cb95d0da48847f420ecf53a5f952d07bf959276347b01ce026c684af4e0",
+      "bytes": 10175581
+    },
+    {
+      "file": "webops-factory-demo-mobile.mp4",
+      "sha256": "b07f89dd49a0eb3d4105875c66fb917eb7a1435140b41d559971adcdb57a209b",
+      "bytes": 1248018
+    }
+  ],
+  "audio": {
+    "integratedLUFS": -16.7,
+    "truePeakDbTP": -1.65,
+    "listening": "not_attested"
+  },
+  "reviewStatus": "REVIEW_INCOMPLETE",
+  "sourceNotes": "Actual browser interactions with retained live-run evidence and the real original/candidate example website. No simulated execution, captions or scene labels. Five supported defects repaired; additional crawl findings remain. Kujo bumper uses original logo and Departure Mono.",
+  "narration": {
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "voice": "eXpIbVcVbLo8ZJQDlDnl",
+    "receipts": "Editable source archive/media",
+    "characters": 649,
+    "observedCredits": 286,
+    "monetaryCost": null
+  },
+  "limitations": [
+    "Perceptual audio listening not attested; no creative PASS claimed.",
+    "Film shows completed run records, not real-time agent execution."
+  ],
+  "technicalChecks": {
+    "decode": "PASS",
+    "hyperframesLint": "PASS",
+    "hyperframesBrowserCheck": "PASS",
+    "frameScan": {
+      "frames": 1395,
+      "isolatedFlashCandidates": 0,
+      "startupGrayFrames": 0,
+      "blackFrames": 0,
+      "blankWhiteFrames": 0
+    },
+    "audioQA": "PASS"
+  },
+  "sampledVisualReview": "PASS \u2014 independent parent review of contact/phone sheets, four scene-cut strips and both internal browser-transition strips",
+  "sourceArchive": {
+    "file": "webops-demo-source.zip",
+    "bytes": 35864183,
+    "sha256": "dd51832961a23cc9fbc83bf6fa54f4d29dbaf6311d80721f826fe9f83a3fd06a"
+  }
+}
