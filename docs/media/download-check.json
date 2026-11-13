@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "url": "https://raw.githubusercontent.com/kujolang/webops-factory/main/docs/media/webops-factory-demo-mobile.mp4",
+  "httpStatus": 200,
+  "sha256": "b07f89dd49a0eb3d4105875c66fb917eb7a1435140b41d559971adcdb57a209b",
+  "bytes": 1248018,
+  "rangeStatus": 206,
+  "contentRange": "bytes 0-1023/1248018"
+}

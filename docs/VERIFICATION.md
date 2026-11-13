@@ -27,3 +27,5 @@ A [fresh-clone portability check](portability-check.json) passed against the pub
 The 46.5-second demo uses actual browser recordings of the exported live run and example website, ElevenLabs Siren narration and the Kujo bumper. The render passed HyperFrames checks and full decoding. All 1,395 frames were scanned: no isolated flash candidates, gray startup frames, black frames or blank white frames were found. Contact sheets and all scene and navigation cuts were visually inspected.
 
 Audio level checks passed at -16.70 LUFS and -1.65 dBTP. Listening for pronunciation and mix comfort has not been attested, so the media review remains `REVIEW_INCOMPLETE`. The film shows completed run evidence, not real-time agent execution. Exact hashes and source provenance are in the [media manifest](media/manifest.json).
+
+The published README player passed anonymous Chrome desktop and WebKit phone-emulation playback and seeking checks. The public phone download returned the expected SHA-256 and HTTP 206 byte-range response. See [playback](media/readme-playback.json) and [download](media/download-check.json) receipts. This is browser emulation, not a physical-phone test.
